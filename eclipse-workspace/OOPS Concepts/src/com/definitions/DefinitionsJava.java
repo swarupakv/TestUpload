@@ -195,14 +195,50 @@ As in encapsulation, the data in a class is hidden from other classes using the 
 Encapsulation can be achieved by: Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
 
 
+=====================================
+
+this:
+
+this is a reference variable that refers to the current object.
+
+Here is given the 6 usage of java this keyword.
+
+this can be used to refer current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke current class constructor.
+this can be passed as an argument in the method call.
+this can be passed as argument in the constructor call.
+this can be used to return the current class instance from the method.
+
+this refers to current class object
+===========================================
+
+super:
+
+super refers to parent class object 
+
+Usage of Java super Keyword
+super can be used to refer immediate parent class instance variable.
+super can be used to invoke immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
+inheritance
+
+==============================================
+
+Polymorphism
+Interfaces
 
 
 
+static
+final
 
+Association
+Aggregation
+Composition
 
-
-
-
+=============================================
 
 
 
