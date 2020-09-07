@@ -53,6 +53,8 @@ Class B extends A
 Multiple Inheritance:
 In Multiple Inheritance, one class extending more than one class. Java does not support multiple inheritance.
 
+class C extends A, B  //Compile time error
+
 Class C extends A,B
 	
 Multilevel Inheritance:
@@ -240,11 +242,89 @@ Composition
 
 =============================================
 
+Polymorphism in Java:
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways. 
+Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+There are two types of polymorphism in Java: 
+compile-time polymorphism - Static polymorphism - Method Overloading
+runtime polymorphism - dynamic polymorphism - Method Overriding
+We can perform polymorphism in java by method overloading and method overriding.
+
+If you overload a static method in Java, it is the example of compile time polymorphism. Here, we will focus on runtime polymorphism in java.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method Overloading:
+
+1. same class name
+2. same method name
+3. Different args
+ - No.of args
+ - Type of args
+ - Sequence of args
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method Overriding:
+
+1. Different class name
+2. same method name
+3. Same args
+ - No.of args
+ - Type of args
+ - Sequence of args
+4. Inheritance IS-A relationship
+---------------------------------------------------------------------------------------------------------------------------
+
+Can we overload java main() method?
+Yes, we can have any number of main methodsby method overloading. JVM calls main method with string array of argument only.
 
 
 
+Runtime Polymorphism in Java
+Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
 
+In this process, an overridden method is called through the reference variable of a superclass. The determination of the method to be called is based on the object being referred to by the reference variable.
 
+Let's first understand the upcasting before Runtime Polymorphism.
+
+======================================================
+
+Interface 
+
+An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. 
+It is used to achieve abstraction and multiple inheritance in Java.
+In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+Java Interface also represents the IS-A relationship.
+It cannot be instantiated just like the abstract class.
+Since Java 8, we can have default and static methods in an interface.
+Since Java 9, we can have private methods in an interface.
+
+Why use Java interface?
+There are mainly three reasons to use interface. They are given below.
+
+It is used to achieve abstraction.
+By interface, we can support the functionality of multiple inheritance.
+It can be used to achieve loose coupling.
+
+How to declare an interface?
+An interface is declared by using the interface keyword. It provides total abstraction; means all the methods in an interface are declared with the empty body, and all the fields are public, static and final by default. A class that implements an interface must implement all the methods declared in the interface.
+
+Syntax:
+interface <interface_name>{  
+      
+    // declare constant fields  
+    // declare methods that abstract   
+    // by default.  
+}  
+
+1. Interface can have only abstract methods.
+2. Interface cannot have concrete methods
+3. by default methods appends public abstract
+4. by default variables append public static final
+5. It cannot be instantiated.
+Since Java 8, we can have default and static methods in an interface.
+Since Java 9, we can have private methods in an interface.
 
 
 
