@@ -8,8 +8,8 @@ public class DataTypes {
 		short b = 23;
 		int c = 2333333;
 		long d = 222288222;
-		//float e = 235.64f;
-		//double f = 123232.34d;
+		float e = 235.64f;
+		double f = 123232.34d;
 		char g = 'A'; 
 		String h = "Swarupa";
 		boolean i = true;
@@ -18,8 +18,8 @@ public class DataTypes {
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(d);
-		//System.out.println(e);
-		//System.out.println(f);
+		System.out.println(e);
+		System.out.println(f);
 		System.out.println(g);
 		System.out.println(h);
 		System.out.println(i);
