@@ -4,7 +4,7 @@ public class ArrayClone
 {
 	public static void main(String args[])
 	{  
-		int arr[]={33,3,4,5};  
+		int arr[]={33,3,4,5,6,7};  
 		System.out.println("Printing original array:");  
 		for(int i:arr)  
 		System.out.println(i);  

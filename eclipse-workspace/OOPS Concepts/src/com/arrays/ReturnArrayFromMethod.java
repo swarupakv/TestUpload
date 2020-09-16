@@ -7,7 +7,6 @@ public class ReturnArrayFromMethod
 	{  
 	return new int[]{10,30,50,90,60};  
 	}  
-	  
 	public static void main(String args[])
 	{  
 	//calling method which returns an array  
@@ -17,3 +16,13 @@ public class ReturnArrayFromMethod
 	System.out.println(arr[i]);  
 	}
 }  
+
+/*
+
+10
+30
+50
+90
+60
+
+*/
