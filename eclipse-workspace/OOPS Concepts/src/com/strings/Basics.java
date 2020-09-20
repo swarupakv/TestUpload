@@ -56,6 +56,10 @@ s1 > s2   :positive value   1
 s1 < s2   :negative value  -1
 
 
+StringBuffer:
+
+Java StringBuffer class is used to create mutable (modifiable) string. 
+The StringBuffer class in java is same as String class except it is mutable i.e. it can be changed.
 
 
 
